@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="dingus.win is the home page for a collection of personal projects and tools."
+    />
+    <meta name="theme-color" content="#141719" />
+    <title>dingus.win — Projects</title>
+  </head>
+  <body>
+    <div class="site">
+      <header class="header">
+        <a class="brand" href="/" aria-label="dingus.win home">dingus<span>.win</span></a>
+        <nav aria-label="Main navigation">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a class="nav-project" href="https://lidar.dingus.win">LiDAR explorer <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">WELCOME TO</p>
+            <h1 id="hero-title" class="hero-logo">dingus<span>.win</span></h1>
+            <a class="hero-link" href="#projects">See the project <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <div class="code-card" aria-label="Project notes">
+            <div class="code-card-header">
+              <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span>notes.txt</span>
+              <span>local</span>
+            </div>
+            <div class="code-card-body">
+              <p><span class="line-number">01</span> build useful things</p>
+              <p><span class="line-number">02</span> learn as I go</p>
+              <p><span class="line-number">03</span> <span class="cursor">_</span></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="projects">
+          <div class="section-header">
+            <h2>Projects</h2>
+            <span>01</span>
+          </div>
+          <a class="project-card" href="https://lidar.dingus.win">
+            <div class="project-id">01</div>
+            <div class="project-main">
+              <p class="project-type">MAPPING · PUBLIC DATA</p>
+              <h3>LiDAR explorer</h3>
+              <p class="project-description">
+                A browser tool for viewing public LiDAR data and checking
+                possible structures.
+              </p>
+            </div>
+            <div class="project-action">
+              <span>Open project</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+          <p class="project-status"><span></span> Scans are started manually. Automated scanning is not running.</p>
+        </section>
+
+        <section id="about" class="about">
+          <h2>About</h2>
+          <div>
+            <p>dingus.win is a home for my projects. I’ll add more here when they’re ready.</p>
+            <p>For now, the LiDAR explorer is the only project listed.</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a class="brand" href="/">dingus<span>.win</span></a>
+        <span>© <span id="year"></span></span>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
